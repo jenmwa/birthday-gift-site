@@ -1,0 +1,108 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#676a51, #d8d8d8);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #ed7564;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #ed7564;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #ed7564;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-together, #gift-img-kidding , #gift-img-worship  {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/iJP6mBmZyqKYTBmrav/giphy.gif");
+}
+
+#gift-img-gifts:hover {
+    background-image: url("https://media.giphy.com/media/SVYnISz8VwSFTsOX9k/giphy.gif");
+}
+
+#gift-img-worship:hover {
+    background-image: url("https://media.giphy.com/media/K55exy0toWjQc/giphy.gif");
+}
+
+#gift-img-kidding:hover {
+    background-image: url("https://media.giphy.com/media/Ra1DDG9aAAZu06scYA/giphy.gif");
+}
+
+#gift-img-together:hover {
+    background-image: url("https://media.giphy.com/media/N8HaPqnkQETss/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    color: #696969;
+}
+
+a {
+    color: #696969;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
