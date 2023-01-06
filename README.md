@@ -1,4 +1,7 @@
-# coa8048aba096ce3537847da3
+# Birthday Gift Site with Scrimba
+
+## fun little project made through online lessons with Scrimba.
+HTML & CSS.
 
 ## About Scrimba
 
